@@ -13,6 +13,7 @@ import PsychologyOutlinedIcon from "@mui/icons-material/PsychologyOutlined";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import { Link } from "react-router-dom";
 
+import { useContext } from "react";
 
 const Sidebar = () => {
 	
@@ -20,7 +21,7 @@ const Sidebar = () => {
 		<div className="sidebar">
 			<div className="top">
 				<Link to="/" style={{ textDecoration: "none" }}>
-					<span className="logo">Admin Dashboard</span>
+					<span className="logo">lamadmin</span>
 				</Link>
 			</div>
 			<hr />
